@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+     background:linear-gradient(to bottom,rgb(148, 0, 211), rgb(164, 56, 240),rgb(164, 56, 240), rgb(182, 109, 255),rgb(182, 109, 255),rgb(182, 109, 255));
+     background-position: center;
+    background-size: cover;
+
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border: 4px solid rgba(255,255, 255, 0.5);
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px, 15px;
+    width: 310px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-20%);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transition: 0.5s;
+    pointer-events: none;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: 10px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: rgb(255, 255, 255);
+    margin:20px 10px 0 0;
+}
+
+.icono{
+    position: absolute;
+    right: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    top: 20px;
+    width: 30px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: transparent;
+    border: solid #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.icon{
+    position: absolute;
+    right: -10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    justify-content: space-between;
+    width: 30px;
+}
+.forget a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    font-size: 1.3em;
+    
+    
+
+}
+.forget{
+    position: relative;
+    margin: 25px;
+    padding: 10px;
+} 
